@@ -30,8 +30,7 @@ interface = gr.Interface(
     outputs=gr.Markdown(label="Detection Results"),
     title="CCTV Video Anomaly Detection",
     description="Upload a short video clip to detect anomalies such as assault, fighting, robbery, shoplifting, stealing, vandalism, etc. The model processes 16 frames to classify the activity.",
-    examples=[],
-    allow_flagging="never"
+    examples=[]
 )
 
 # Launch the app
